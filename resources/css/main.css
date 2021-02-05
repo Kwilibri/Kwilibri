@@ -1,0 +1,13 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: grid;
+    font-family: -apple-system, BlinkMacSystemFont,'Segoe-UI',Roboto, 'Helvetica Neue',Arial,'Noto Sans', 'Liberation Sans',sans-serif;
+    row-gap: 1px;
+    margin: 0px;
+    height:100%;
+
+
+}
