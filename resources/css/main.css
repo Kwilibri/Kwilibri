@@ -5,9 +5,29 @@ html {
 body {
     display: grid;
     font-family: -apple-system, BlinkMacSystemFont,'Segoe-UI',Roboto, 'Helvetica Neue',Arial,'Noto Sans', 'Liberation Sans',sans-serif;
+    color: white;
     row-gap: 1px;
     margin: 0px;
     height:100%;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
+@media (max-width:480px){
+    body {
+        background-image: url('/resources/images/earth-240x427.jpg');
+    }
+}
 
+@media (min-width:481px) and (max-width:1024px) {
+    body {
+        background-image: url('/resources/images/earth-986x1282.jpg');
+    }
+}
+
+@media (min-width:1025px) {
+    body {
+        background-image: url('/resources/images/guillaume-de-germain-6Xw9wMJyHus-unsplash 1920x1281.jpg')
+    }
 }
