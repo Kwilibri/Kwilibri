@@ -14,6 +14,18 @@ body {
   background-size: cover;
 }
 
+section {
+    display:grid;
+    padding: 30px;
+    font-size: 20px;
+    background-color:white;
+    color:black;
+    margin: 10% 30% ;
+    border-radius: 20%;
+    align-items: center;
+    justify-items:center;
+}
+
 @media (max-width:480px){
     body {
         background-image: url('/resources/images/earth-240x427.jpg');
