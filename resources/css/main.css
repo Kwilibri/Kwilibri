@@ -47,9 +47,9 @@ body {
     body {
         background-image: url('/resources/images/earth-986x1282.jpg');
     }
-            section {
+    section {
 
-               display:grid;
+    display:grid;
     padding: 20px 20px 20px 20px;
     font-size: 20px;
     background-color:white;
