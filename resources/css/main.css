@@ -18,7 +18,6 @@ body {
 
 @media (max-width:480px){
     body {
-        background-image: url('/resources/images/earth-240x427.jpg');
         grid-template-columns: 10px 320px auto;
         grid-template-rows: auto auto;
         margin: 10% 10% ;
@@ -44,9 +43,6 @@ body {
 }
 
 @media (min-width:481px) and (max-width:1024px) {
-    body {
-        background-image: url('/resources/images/earth-986x1282.jpg');
-    }
     section {
 
     display:grid;
@@ -65,9 +61,6 @@ body {
 }
 
 @media (min-width:1025px) {
-    body {
-        background-image: url('/resources/images/guillaume-de-germain-6Xw9wMJyHus-unsplash 1920x1281.jpg')
-    }
 
         section {
 
