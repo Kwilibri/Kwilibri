@@ -15,7 +15,7 @@ module WebApp =
                     encodedText "Hello World"
                 ]
             ]
-            let view = pageContent |> masterPage "Home"
+            let view = pageContent |> masterPage "Kwilibri"
             (htmlView view) next ctx
 
 
