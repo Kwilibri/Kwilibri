@@ -13,7 +13,7 @@ open Giraffe.ViewEngine
 
 open WebApp
 
-module Program = 
+module Program =
 
 
     let configureApp (app: IApplicationBuilder) = app.UseGiraffe(router)
