@@ -14,4 +14,4 @@ module MasterPage =
                     link [ _rel "stylesheet"; _href "/css/normalize.css" ]
                     link [ _rel "stylesheet"; _href "/css/main.css" ]
                     title [] [ encodedText pageTitle ] ]
-              body [] [ main [] content ] ]
+              body [] content ]

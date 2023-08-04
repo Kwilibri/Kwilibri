@@ -16,11 +16,11 @@ open WebApp
 module Program =
 
 
-    let configureApp (app: IApplicationBuilder) = 
+    let configureApp (app: IApplicationBuilder) =
         app.UseStaticFiles() |> ignore
         app.UseGiraffe(router) |> ignore
 
-    let configureServices (services: IServiceCollection) = 
+    let configureServices (services: IServiceCollection) =
         services.AddLogging() |> ignore
         services.AddGiraffe() |> ignore
 
